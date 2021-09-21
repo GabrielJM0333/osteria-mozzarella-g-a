@@ -1,0 +1,142 @@
+body{
+    font-family: 'cursive', Helvetica, sans-serif, serif;
+    background:rgb(0, 0, 0);
+}
+
+
+.superior{
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 136px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+.LogoMenu{
+    float: right;
+    width: 320px;
+    margin-top: 15px;
+    margin-right: 25px ;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 00px auto;
+    float: left;
+    background-color: white;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li >a{
+    display: block;
+    padding: 1cm;
+    color: rgb(7, 4, 4);
+    text-decoration: none;
+}
+
+
+.menu li a:hover{
+    background-color: #F8F9F9;
+    transition: all .3s;
+    width: fit-content;
+}
+
+.submenu{
+    position: absolute;
+    width: 130%;
+    background: white;
+    display: none;
+}
+
+
+
+.menu li :hover .submenu{
+    display: block;
+}
+
+.submenu li a{
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.bienvenida{
+    margin-top: 300px;
+}
+
+.bienvenida h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.texto-bienvenida{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+    width: 400px;
+}
+
+.formulario{
+    margin-left: 35%;
+    margin-top: 100px;
+    background-color: white;
+    display: block;
+    width: 350px;
+    padding: 30px;
+    box-shadow: 0px 0px 6px 0px gray;
+    border-radius: 50px;
+}
+
+.reserva h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+label{
+    color: black;
+}
+
+.casilla{
+    margin-top: 10px;
+}
+
+input{
+    background: none;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+.marca-de-agua > img{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 570px;
+    margin-right: 400px;
+}
+
+.texto-footer{
+    text-align: center;
+    padding: 20px;
+    color: grey;
+}

@@ -1,0 +1,263 @@
+body{
+    font-family: 'cursive', Helvetica, sans-serif, serif;
+    background:rgb(0, 0, 0);
+}
+
+
+.superior{
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 136px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+.LogoMenu{
+    float: right;
+    width: 320px;
+    margin-top: 15px;
+    margin-right: 25px ;
+}
+
+.navegacion{
+    width: 1000px;
+    height: 136px;
+    margin: 00px auto;
+    float: left;
+    background-color: white;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li >a{
+    display: block;
+    padding: 1cm;
+    color: rgb(7, 4, 4);
+    text-decoration: none;
+}
+
+
+.menu li a:hover{
+    background-color: #F8F9F9;
+    transition: all .3s;
+    width: fit-content;
+}
+
+.submenu{
+    position: absolute;
+    width: 130%;
+    background: white;
+    display: none;
+}
+
+
+
+.menu li :hover .submenu{
+    display: block;
+}
+
+.submenu li a{
+    display: block;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.titulo{
+    color: white;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    margin-left: 625px;
+    font-weight: 3000;
+}
+
+.linea{
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 285px;
+    
+}
+
+.categorias{
+    display: flex ;
+    grid-gap: 10px;
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-right: 160px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.h2{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 260px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.imagen{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    position: relative; 
+    object-fit: cover;
+    margin-bottom: 0px;  
+    box-shadow: 0px 0px 3px 0px black;
+    transition: transform 0.5s;
+}
+
+.imagenes > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagenes a:hover img{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.25);
+}
+
+.imagenes{
+    height: 450px;
+    width: 275px;
+    position: relative;
+}
+
+.bebidas > a > img{
+    margin-top: 200px;
+}
+
+.contenedor-productos{
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 22px;
+}
+
+.productos-precios{
+    margin-left: 45px;
+}
+.titulo-segmento{
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.producto{
+    color: white;
+    font-size: 15px;   
+}
+
+.precio-color{
+    color: #C0392B;
+}
+
+.sabores-jugos{
+    font-size: 12px; 
+}
+
+.cervezas-nacionales{
+    font-size: 12px;
+}
+
+.cervezas-artesanales{
+    font-size: 12px;
+}
+
+.cervezas-internacionales{
+    font-size: 12px;
+}
+
+.contenedor_productos{
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 22px;
+}
+
+.Antipasti > a > img{
+    margin-top: 200px;
+}
+
+.Shaved-Brussels{
+    font-size: 12px;
+}
+
+.Butter-Lettuce{
+    font-size: 12px;
+}
+
+.Nancys-Caesar{
+    font-size: 12px;
+}
+
+.Grilled-Octopus{
+    font-size: 12px;
+}
+
+.Roasted-Beets{
+    font-size: 12px;
+}
+li{
+    margin-top: 18px;
+}
+
+.Mozzarella > a > img{
+    margin-top: 200px;
+}
+
+.Primi > a > img{
+    margin-top: 200px;
+}
+
+.Ricotta{
+    font-size: 12px;
+}
+
+.Secondi > a > img{
+    margin-top: 200px;
+}
+
+.marca-de-agua > img{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 570px;
+    margin-right: 400px;
+}
+
+.texto-footer{
+    text-align: center;
+    padding: 20px;
+    color: grey;
+}
+
+.Contorni > a > img{
+    margin-top: 200px;
+}
+
+.Dolci > a > img{
+    margin-top: 200px;
+}
